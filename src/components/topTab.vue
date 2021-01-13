@@ -10,7 +10,7 @@ export default {
 
 <style lang="less" >
 .mint-header{
-    background: #3479F8 !important;
+    background: rgba(52,121,248,0.8) !important;
 }
 </style>
 

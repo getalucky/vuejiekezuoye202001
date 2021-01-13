@@ -31,5 +31,8 @@ export default {
 };
 </script>
 
-<style>
+<style scoped lang='less'>
+/deep/ .is-selected{
+
+}
 </style>

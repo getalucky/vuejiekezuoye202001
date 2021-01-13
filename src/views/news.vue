@@ -46,6 +46,7 @@
 <script>
 import toptab from "../components/topTab";
 import { MessageBox } from "mint-ui";
+import { Toast } from 'mint-ui';
 
 export default {
   data() {
@@ -78,7 +79,7 @@ export default {
     },
     // more提示
     handleMore() {
-      MessageBox("提示", "此功能未完善");
+      Toast('此功能未完善');
     },
   },
   components: {
@@ -89,13 +90,12 @@ export default {
 
 <style scoped lang="less">
 /deep/ .box {
-  position: absolute;
-  top: 40px;
-  bottom: 55px;
-  overflow-y: auto;
-  // background:rgba(88,174,251,0.1);
-  width: 100%;
-  height: 640px;
+  // position: absolute;
+  // top: 40px;
+  // bottom: 55px;
+  // overflow-y: auto;
+  // width: 100%;
+  // height: 640px;
   .hotText {
     display: flex;
     justify-content: space-between;

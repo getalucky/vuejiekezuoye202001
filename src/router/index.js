@@ -10,7 +10,7 @@ const routes = [
   {
     path: '/',
     name: 'news',
-    redirect: 'news',
+    redirect: 'oilPrice',
   },
   {
     path: '/news',
