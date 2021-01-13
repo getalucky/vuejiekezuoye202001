@@ -12,7 +12,6 @@ Vue.prototype.$axios = axios
 Vue.use(flexible);
 Vue.use(MintUI);
 
-axios.defaults.baseURL = '/api'
 
 new Vue({
   router,

@@ -1,5 +1,5 @@
 <template>
-    <mt-header fixed :title="title"></mt-header>
+    <mt-header fixed :title="title" class="headerCor"></mt-header>
 </template>
 
 <script>
@@ -8,9 +8,9 @@ export default {
 }
 </script>
 
-<style lang="less" scoped>
+<style lang="less" >
 .mint-header{
-    background-color: ""
+    background: #3479F8 !important;
 }
 </style>
 

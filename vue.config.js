@@ -1,16 +1,21 @@
+
 module.exports = {
+
+    // 已省略其他配置项
+
     devServer: {
+
         proxy: {
-            '/api': {
-                // 此处的写法，目的是为了 将 /api 替换成 https://www.baidu.com/
-                target: 'http://v.juhe.cn',
-                // 允许跨域
-                changeOrigin: true,
-                ws: true,
-                pathRewrite: {
-                    '^/api': ''
-                }
+            '/xinwen': {                                // 要代理的接口名
+                target: 'http://v.juhe.cn/toutiao/index',   // 要代理的接口地址
+                changeOrigin: true,                            // 允许跨域
+                pathRewrite: { '^/xinwen': '' }            // 接口名重写
             }
+
         }
+
     }
+
+
+
 }
