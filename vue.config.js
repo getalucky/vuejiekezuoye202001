@@ -15,6 +15,11 @@ module.exports = {
                 target: 'http://apis.juhe.cn/gnyj/query',   // 要代理的接口地址
                 changeOrigin: true,                            // 允许跨域
                 pathRewrite: { '^/youjia': '' }            // 接口名重写
+            },
+            '/tianqi': {                                // 要代理的接口名
+                target: 'http://apis.juhe.cn/simpleWeather/query',   // 要代理的接口地址
+                changeOrigin: true,                            // 允许跨域
+                pathRewrite: { '^/tianqi': '' }            // 接口名重写
             }
 
         }

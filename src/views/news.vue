@@ -104,7 +104,7 @@ export default {
     font-size: 18px;
     font-weight: 400;
     text-align: left;
-    text-shadow: 1px 1px 1px#193BF4;
+    text-shadow: 1px 1px 1px#5c5d63;
     border-bottom: 1px solid #ccc;
     font-family: "宋体";
     .more {

@@ -33,6 +33,7 @@
 
 <script>
 import toptab from "../components/topTab";
+import { MessageBox } from 'mint-ui';
 
 export default {
   data() {
@@ -66,6 +67,7 @@ export default {
         },
       ];
     },
+    
   },
   methods: {
     // 请求油价数据
@@ -97,6 +99,7 @@ export default {
 </script>
 
 <style scoped lang='less'>
+
 .hotText {
   display: flex;
   justify-content: space-between;
@@ -105,7 +108,7 @@ export default {
   font-size: 18px;
   font-weight: 400;
   text-align: left;
-  text-shadow: 1px 1px 1px#193BF4;
+  text-shadow: 1px 1px 1px #5c5d63;
   border-bottom: 1px solid #ccc;
   font-family: "宋体";
 }
